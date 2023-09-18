@@ -1,0 +1,334 @@
+.main_all_top{
+    margin-top: 16rem;
+    display: flex;
+    gap: 3rem;
+    max-width: 111.1rem;
+    background-size: 100%;
+}
+.main_all_card1{
+    width: 541px;
+height: 640px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-image: url('/images/svg/background-img-laptop.svg');
+&:hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.5),
+        (rgba(231, 129, 107, 0.5))
+      ),
+      url('/images/svg/background-img-laptop.svg');
+  }
+}
+.main_all_card2{
+    width: 541px;
+    height: 308px;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-image: url('/images/svg/background-img-phone.svg');
+&:hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.5),
+        (rgba(231, 129, 107, 0.5))
+      ),
+      url('/images/svg/background-img-phone.svg');
+  }
+}
+.main_all_card3{
+    margin-top: 2.4rem;
+    width: 541px;
+    height: 308px;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-image: url('/images/svg/background-img-graphic.svg');
+&:hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.5),
+        (rgba(231, 129, 107, 0.5))
+      ),
+      url('/images/svg/background-img-graphic.svg');
+  }
+}
+.main_all_card1_h3{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+.main_all_card2_h3{
+    margin-top: 1rem;
+    display: flex;
+    align-items:center;
+}
+.main_all_card3_h3{
+    margin-top: 1rem;
+    display: flex;
+    align-items:center;
+}
+.main_all_card1_h2{
+    color: #FFF;
+font-size: 3rem;
+font-style: normal;
+font-weight: 500;
+line-height: 4rem; 
+letter-spacing: 0.2rem;
+}
+.main_all_card2_h2{
+    color: #FFF;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 4rem; 
+    letter-spacing: 0.2rem;
+}
+.main_all_card3_h2{
+    color: #FFF;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 4rem; 
+    letter-spacing: 0.2rem;
+}
+.main_all_card3_h4{
+    color: #FFF;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.5rem;
+text-transform: uppercase;
+margin-right: 1rem;
+}
+@media screen and (max-width:1440px){
+    .main_all_top{
+       display: block;
+    }
+    .main_all_card1{
+        background-position: center bottom;
+        width: 100%;
+        background-size: 100%;
+        height: 35rem;
+        background-repeat: no-repeat;
+    }
+    .main_all_card2{
+        margin-top: 10px;
+        background-position: center center;
+        width: 100%;
+        background-size: 100%;
+        height: 35rem;
+        background-repeat: no-repeat;
+    }
+    .main_all_card3{
+        background-position: center center;
+        width: 100%;
+        background-size: 100%;
+        height: 35rem;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width:600px){
+  .main_all_card3{
+   height: 25rem;
+  }
+  .main_all_card2{
+    height: 25rem;
+   }
+   .main_all_card1{
+    height: 25rem;
+   }
+}
+@media screen and (max-width:505px){
+    .main_all_card3_h2{
+     font-size: 2rem !important;
+     line-height: 3rem !important;
+       }
+}
+.main_bottom_cards{
+    margin-top: 16rem;
+    max-width: 111rem;
+    height: 41.2rem;
+    display: flex;
+   text-align: center;
+   gap: 2rem;
+}
+.main_bottom_card1{
+width: 35rem;
+height: 41.2rem;
+display: flex;
+align-items: center;
+flex-direction: column;
+h3{
+    margin-top: 2rem;
+    width: 35rem;
+    height: 2.6rem;
+    color: #333136;
+text-align: center;
+font-size: 2rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.6rem;
+letter-spacing: 0.5rem;
+}
+a{
+    margin-top: 2rem;
+    color: #333136;
+text-align: center;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.6rem; 
+}
+}
+.main_bottom_card2{
+width: 35rem;
+height: 41.2rem;
+display: flex;
+align-items: center;
+flex-direction: column;
+h3{
+    margin-top: 2rem;
+    width: 35rem;
+    height: 2.6rem;
+    color: #333136;
+text-align: center;
+font-size: 2rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.6rem;
+letter-spacing: 0.5rem;
+}
+a{
+    margin-top: 2rem;
+    color: #333136;
+text-align: center;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.6rem; 
+}
+}
+.main_bottom_card3{
+width: 35rem;
+height: 41.2rem;
+display: flex;
+align-items: center;
+flex-direction: column;
+h3{
+    margin-top: 2rem;
+    width: 35rem;
+    height: 2.6rem;
+    color: #333136;
+text-align: center;
+font-size: 2rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.6rem;
+letter-spacing: 0.5rem;
+}
+a{
+    margin-top: 2rem;
+    color: #333136;
+text-align: center;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.6rem; 
+}
+}
+@media screen and (max-width:1440px) {
+    .main_bottom_cards{
+       display: block;
+    }
+    .main_bottom_card1{
+        display: flex !important;
+        flex-direction: row;
+gap: 5rem;
+h3{
+    text-align: left;
+}
+a{
+    width: 43.9rem;
+    text-align: left;
+}
+    }
+    .main_bottom_card2{
+        display: flex !important;
+        flex-direction: row;
+gap: 5rem;
+h3{
+    text-align: left;
+}
+a{
+    width: 43.9rem;
+    text-align: left;
+}
+    }
+    .main_bottom_card3{
+        display: flex !important;
+        flex-direction: row;
+gap: 5rem;
+h3{
+    text-align: left;
+}
+a{
+    width: 43.9rem;
+    text-align: left;
+}
+    }
+
+}
+@media screen and (max-width:655px){
+    .main_bottom_cards{
+        display: block;
+     }
+     .main_bottom_card1{
+         display: block !important;
+ h3{
+     text-align: center;
+ }
+ a{
+     width: 100%;
+     text-align: center;
+ }
+ .main_bottom_card1_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+}
+.main_bottom_card2{
+    display: block !important;
+h3{
+text-align: center;
+}
+a{
+width: 100%;
+text-align: center;
+}
+.main_bottom_card2_img{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+}
+.main_bottom_card3{
+    display: block !important;
+    
+h3{
+text-align: center;
+}
+a{
+width: 100%;
+text-align: center;
+}
+.main_bottom_card3_img{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+}
+}
